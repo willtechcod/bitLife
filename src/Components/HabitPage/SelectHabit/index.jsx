@@ -6,7 +6,7 @@ import HabitData from '../../../Database/HabitData';
 
 export default function SelectHabit({habit, habitInput}){
     const [ selected, setSelected] = useState(
-      habit?.habitName ? habit?.habitName : "-"
+      habit?.habitName ? habit?.habitName : "Ex: pré definidos!"
     );
     const [data, setData] = useState();
       useEffect(() => {
