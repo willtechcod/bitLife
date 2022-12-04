@@ -19,7 +19,7 @@ export default function Notification({
           <Switch
               trackColor={{false: "#FF0044", true: "#2DBE56"}}
               thumbColor={"#FFFFFF"}
-              ios_backgroundColor="#3e3e3e"
+              ios_backgroundColor="#FF0044"
               onValueChange={toggleSwitch}
               value={notificationToggle}
           />
